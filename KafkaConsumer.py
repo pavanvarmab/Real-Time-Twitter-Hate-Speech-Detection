@@ -206,7 +206,7 @@ def push_bad_pred_to_mongo(raw_data, threshold=0.7):
     # }
 
     # MongoDB Atlas connection string
-    client = MongoClient("mongodb+srv://admin:admin123@cluster0.agqa7fr.mongodb.net/?retryWrites=true&w=majority")
+    client = MongoClient("mongodb+srv://<>:<>@cluster0.agqa7fr.mongodb.net/?retryWrites=true&w=majority")
     db = client.get_database("Tweets")
     
     # get table class
@@ -238,7 +238,7 @@ def transform_and_update_mongo(raw_data):
     #  frequency: list of tuple
     # }
     # MongoDB Atlas connection string
-    client = MongoClient("mongodb+srv://admin:admin123@cluster0.agqa7fr.mongodb.net/?retryWrites=true&w=majority")
+    client = MongoClient("mongodb+srv://<>:<>@cluster0.agqa7fr.mongodb.net/?retryWrites=true&w=majority")
     db = client.get_database("Tweets")
     
     # push clean tweets
