@@ -53,7 +53,7 @@ def get_data(data_samples):
 
 def get_tweets_for_retrain() -> List[str]:
     # MongoDB Atlas connection string
-    client = MongoClient("mongodb+srv://admin:admin123@cluster0.agqa7fr.mongodb.net/?retryWrites=true&w=majority")
+    client = MongoClient("mongodb+srv://<>:<>@cluster0.agqa7fr.mongodb.net/?retryWrites=true&w=majority")
     db = client.get_database("Tweets")
     
     # get data
