@@ -1,6 +1,7 @@
-# BD-HateSpeech
+# Real Time Twitter Hate Speech Detection
 This project implements a system using big data tools to achieve real time hate-speech classification on twitter data stream
 
+Collaborators : JiangLong He (jh8011@nyu.edu), Chen Liao (cl6108@nyu.edu), Kaining Mao (km5745@nyu.edu), Mary Wu (bw2327@nyu.edu).
 <br>
 
 ## Requirements for Enviornment
